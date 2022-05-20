@@ -27,6 +27,9 @@ while True:
                 case 'kg to pound':
                     output = round(float(input_value) * 2.20462, 2)
                     output_string = f'{input_value} kg are {output} pounds'
+                case 'sec to min':
+                    output = round(float(input_value) * 0.0166667, 2)
+                    output_string = f'{input_value} sec are {output} mins'
             window['-OUTPUT-'].update(output_string)
 
 
